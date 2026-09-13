@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Adnan | AI & Cyber Security</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">MD<span class="highlight">ADNAN</span></span>
+            </a>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                    <li><a href="#contact" class="nav-link btn-primary">Contact</a></li>
+                    <li class="theme-toggle">
+                        <button id="theme-btn" aria-label="Toggle Theme" style="background: none; border: none; cursor: pointer; color: var(--text-primary); font-size: 1.2rem; margin-left: 10px;">
+                            <i class="fa-solid fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="subtitle">Hi, my name is</p>
+                    <h1 class="title">Md Adnan.</h1>
+                    <h2 class="role">I build intelligent & secure systems.</h2>
+                    <p class="description">
+                        First-year AI & Cyber Security student with a hands-on, competition-tested track record — four hackathon/CTF wins, a rigorously tested fraud-detection system with real adversarial security testing, and a disciplined 300-day public ML learning streak.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-outline">View Work</a>
+                        <a href="https://drive.google.com/file/d/1P4CaNutK6Tu_Qg_VmW1oFvlBJOfzZJMW/view?usp=sharing" target="_blank" class="btn btn-primary">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> View Resume
+                        </a>
+                    </div>
+                    <div class="social-links mt-4">
+                        <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" target="_blank" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+                        <a href="#" target="_blank" aria-label="Kaggle"><i class="fa-brands fa-kaggle"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <!-- Placeholder for profile image -->
+                    <div class="profile-image-placeholder">
+                        <i class="fa-solid fa-user-astronaut"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I am an AI & Cyber Security student (BS-MS at IIT Patna & B.Tech at BCE Patna) deeply passionate about the intersection of machine learning, system security, and full-stack product development.
+                        </p>
+                        <p>
+                            Recently selected as an <strong>Official Contributor for Open Source Connect India 2026</strong>, I am comfortable across the ML pipeline (classical ML through deep learning in PyTorch), applied system security (concurrency, prompt-injection defense, audit-trail design), and the product layer (FastAPI/React).
+                        </p>
+                        <p>
+                            I believe in rigorous testing and real-world performance, demonstrated by building adversarial regression suites and verifying statistical bounds for fraud detection models.
+                        </p>
+                    </div>
+                    <div class="education-cards">
+                        <div class="edu-card">
+                            <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div>
+                                <h3>IIT Patna</h3>
+                                <p>BS-MS, Artificial Intelligence & Cyber Security</p>
+                                <span>CGPA: 7.53 | Jan 2026 – 2031</span>
+                            </div>
+                        </div>
+                        <div class="edu-card">
+                            <div class="edu-icon"><i class="fa-solid fa-university"></i></div>
+                            <div>
+                                <h3>BCE Patna</h3>
+                                <p>B.Tech, Computer Science & Engineering (IoT)</p>
+                                <span>CGPA: 8.15 | Aug 2025 – 2029</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Languages</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-brain"></i>
+                            <h3>AI / ML</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li>PyTorch (Neural Networks)</li>
+                            <li>Scikit-learn (Ensembles)</li>
+                            <li>YOLOv8, MediaPipe, Whisper</li>
+                            <li>TF-IDF & Semantic Embeddings</li>
+                            <li>Unsupervised Learning</li>
+                            <li>Statistical Analysis</li>
+                            <li>Pandas / NumPy</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-server"></i>
+                            <h3>Backend / Web</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li>FastAPI</li>
+                            <li>React, Node.js</li>
+                            <li>SQLite, Supabase</li>
+                            <li>Docker</li>
+                            <li>MCP Tool Integration</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <h3>Applied Security</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li>CTF (Crypto, Forensics, OSINT)</li>
+                            <li>Concurrency Debugging</li>
+                            <li>Prompt-Injection Defense</li>
+                            <li>Audit-Trail Design</li>
+                            <li>Pydantic Schema Validation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Sentinel</h3>
+                                <div class="project-links">
+                                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-subtitle">Razorpay AI Buildathon 2026</p>
+                            <div class="project-description">
+                                <p>Coordinated Abuse-Ring & Fraud-Spike Detector. Built an ML ensemble with graph-based clustering, reaching 100% precision. Designed a schema-bound LLM reasoning layer and fixed concurrency race conditions in audit ledgers.</p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>Isolation Forest</li>
+                                <li>Gradient Boosting</li>
+                                <li>LLM</li>
+                                <li>MCP</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">ClassroomAI Monitor</h3>
+                                <div class="project-links">
+                                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-subtitle">1st Place, BYTEHACK 2026</p>
+                            <div class="project-description">
+                                <p>Real-time classroom engagement system combining YOLOv8, MediaPipe, and Whisper into one pipeline. Full-stack development with FastAPI and React, prioritizing on-device privacy.</p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>YOLOv8</li>
+                                <li>FastAPI</li>
+                                <li>React</li>
+                                <li>Whisper</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">CampusGigs</h3>
+                                <div class="project-links">
+                                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                    <a href="#" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-subtitle">1st Place, National Youth Festival</p>
+                            <div class="project-description">
+                                <p>Peer-to-peer student gig marketplace. Built full React frontend and AI gig-description generator. Designed a simulated UPI wallet and real-time negotiation chat.</p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>React</li>
+                                <li>Google Gemini</li>
+                                <li>WebSockets</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fa-solid fa-file-contract"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">AI ATS Resume System</h3>
+                                <div class="project-links">
+                                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-subtitle">Active Development</p>
+                            <div class="project-description">
+                                <p>Hybrid resume-to-job-description matcher using TF-IDF/BM25, semantic embeddings, and an LLM feedback layer. Features PDF report export and secure auth.</p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>FastAPI</li>
+                                <li>React</li>
+                                <li>Supabase</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fa-solid fa-tractor"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Kaggriculture Agent</h3>
+                                <div class="project-links">
+                                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-subtitle">Kaggle Competition</p>
+                            <div class="project-description">
+                                <p>Autonomous farming agent competing head-to-head in a simulated dynamic market economy. Strategy layer handles labor scaling and task coordination.</p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>Python</li>
+                                <li>Reinforcement Learning</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 6 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">300 Days of AI/ML</h3>
+                                <div class="project-links">
+                                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-subtitle">Day 191/300</p>
+                            <div class="project-description">
+                                <p>Public, daily-tracked ML learning log spanning data foundations to deep learning. Implemented K-Means segmentation and built PyTorch ANNs from scratch.</p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>PyTorch</li>
+                                <li>Scikit-Learn</li>
+                                <li>NumPy</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Project 7 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fa-solid fa-hourglass-half"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Memento Mori</h3>
+                                <div class="project-links">
+                                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div>
+                            <p class="project-subtitle">Active Development</p>
+                            <div class="project-description">
+                                <p>Premium, offline-first life-tracking PWA featuring a 60-year life grid and full PWA offline capabilities.</p>
+                            </div>
+                            <ul class="project-tech">
+                                <li>React</li>
+                                <li>Tailwind CSS</li>
+                                <li>Vite</li>
+                                <li>PWA</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="achievements section" id="achievements">
+            <div class="container">
+                <h2 class="section-title">Competitions & Achievements</h2>
+                <div class="timeline">
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Official Contributor</h3>
+                            <p><strong>Open Source Connect India 2026</strong> (Sept 2026)</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>1st Place — ClassroomAI Monitor</h3>
+                            <p><strong>BYTEHACK 2026</strong>, BCE Patna</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>1st Place — Crypto/Forensics/OSINT/Web (3,648 pts)</h3>
+                            <p><strong>RookieCTF 2026</strong> (HackerShield, Tatva Club, IIT Patna)</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>1st Place, Software Project — CampusGigs</h3>
+                            <p><strong>29th National Youth Festival</strong> — Science Mela 2026, Govt. of Bihar</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Round 1 Cleared (Top ~9%)</h3>
+                            <p><strong>Adobe University Hackathon 2026</strong> — 26,760 selected out of 3,01,082 teams.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section-title center">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <p class="contact-text">
+                        I'm currently looking for new opportunities and collaborations. Whether you have a question, a project idea, or just want to say hi, I'll try my best to get back to you!
+                    </p>
+                    <a href="mailto:adnan568676@gmail.com" class="btn btn-primary btn-large">Say Hello</a>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:adnan568676@gmail.com">adnan568676@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <a href="#">LinkedIn Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-social">
+                <a href="#" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" target="_blank" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+                <a href="#" target="_blank" aria-label="Kaggle"><i class="fa-brands fa-kaggle"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Md Adnan. All rights reserved.</p>
+            <p class="built-with">Built with HTML, CSS & JavaScript</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
