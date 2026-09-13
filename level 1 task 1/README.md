@@ -1,16 +1,26 @@
-# React + Vite
+﻿# Personal Developer Portfolio (Level 1 Task 1)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This project is a modern, enterprise-grade personal portfolio built with React and Vite. It serves as a comprehensive showcase of skills, projects, and achievements for an AI & Cyber Security Developer.
 
-Currently, two official plugins are available:
+## Features
+- **Data-Driven Architecture**: All portfolio data (projects, skills, stats) is decoupled from the UI and managed entirely in src/config/cardsConfig.js.
+- **Reusable Components**: Powered by a highly polymorphic Card.jsx component that dynamically adapts to render skills, projects, and custom badges.
+- **Theme Engine**: Built-in Light and Dark modes ("Emerald & Obsidian" palette) utilizing vanilla CSS variables and local storage persistence.
+- **Routing**: Client-side routing with eact-router-dom (HashRouter configured to prevent 404s on static hosts).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Pages Include:
+- **Home**: Hero section, quick stats, and featured projects showcase.
+- **About**: Narrative biography and educational background.
+- **Projects**: Filterable catalog of full-stack, AI, and cybersecurity projects.
+- **Skills**: Categorized technical proficiency matrix.
+- **Contact**: Interactive section with clipboard actions for email and social links.
 
-## React Compiler
+## Getting Started
+To run this project locally:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+`ash
+npm install
+npm run dev
+`
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The development server will launch on http://localhost:5173.
